@@ -1,0 +1,48 @@
+.underlined-link {
+    border-bottom: 3px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.underlined-link a:link, a:visited {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.input label {
+    margin-right: 15px;
+}
+
+.underlined-link:hover, .active {
+    border-bottom: 3px solid var(--main-text-color);
+    opacity: 80%;
+    padding-bottom: 0px;
+    transition: all 0.2s;
+}
+
+.err-label {
+    display: block;
+    color: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    min-height: 12px;
+    max-height: auto;
+}
+
+.has-error {
+    color: red;
+}
+
+.user-link { 
+    color:  black;
+    font-weight: 800;
+}
+
+.secondary {
+    font-weight: 100;
+    color: #131313;
+}

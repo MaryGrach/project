@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@utils/*": ["src/utils/*"],
+      "@types/*": ["src/types/*"],
+      "@router/*": ["src/router/*"],
+      "@pages/*": ["src/pages/*"], 
+      "@api/*": ["src/api/*"],
+      "@static/*": ["static/*"]
+    }
+  },
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "esModuleInterop": true,
+  "resolveJsonModule": true,
+  "sourceMap": true,
+  "skipLibCheck": true,
+  "experimentalDecorators": true,
+  "strictNullChecks": true,
+  "noImplicitAny": true,
+}
