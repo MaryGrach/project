@@ -1,0 +1,72 @@
+<div id="header">
+
+</div>
+<div class="container">
+   <h1 class="no-margin"></h1>
+   <div class="sight-container">
+      <div class="container">
+         <img class="sight-image" src="">
+      </div>
+      <div class="sight-info">
+         <div class="sight-block">
+            <h3 class="no-margin">Подробнее</h3>
+            <p class="sight-description"></p>
+         </div>
+         <div class="sight-block">
+            <h2 class="sight-location"></h2>
+            <h3 class="no-margin">Адрес</h3>
+            <p id="sight-adress"></p>
+         </div>
+         <div class="sight-block">
+            <h3 class="no-margin">Рейтинг</h3>
+            <div class="rating">
+               <div><span></span></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <h2 class="no-margin" id="reviews-label">Отзывы</h2>
+   <div class="sight-reviews">
+
+   </div>
+   <div id="user-review">
+      <form id="review-form" method="post">
+         <h3>Ваши впечатления о месте:</h3>
+         <div class="input">
+            <textarea class="review-textarea" type="text" required rows="8"
+               placeholder="Оставьте отзыв об этом месте..."></textarea>
+            <label for="rate">Оценка</label>
+            <div class="rating">
+               <div id="stars-container"></div>
+            </div>
+            <label class="err-label"></label>
+         </div>
+         <button id="review-submit" type="submit" class="button-primary">Отправить</button>
+      </form>
+   </div>
+
+   <dialog class="delete-dialog">
+      <label>Вы действительно хотите удалить отзыв?</label>
+      <form method="dialog">
+         <menu>
+            <button class="button-danger" type="submit">Да</button>
+            <button class="cancel" type="reset">Отмена</button>
+         </menu>
+      </form>
+   </dialog>
+
+   <dialog class="edit-dialog">
+      <label>Отредактируйте отзыв</label>
+      <form>
+         <textarea id="editTextArea" rows="8" cols="48"></textarea>
+         <div class="rating">
+            <div id="edit-stars-container"></div>
+         </div>
+         <label class="err-label"></label>
+         <menu>
+            <button class="button-primary" type="submit">Изменить</button>
+            <button class="cancel" type="reset">Отмена</button>
+         </menu>
+      </form>
+   </dialog>
+</div>

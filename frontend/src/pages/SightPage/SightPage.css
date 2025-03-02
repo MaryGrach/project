@@ -1,0 +1,69 @@
+.container {
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 1vw;
+    padding: 2vw;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sight-container {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ 
+    & img {
+        width: 100%;
+        height: auto; 
+        max-width: 100%;
+    }
+}
+
+.sight-image {
+    width: 100%;
+    border-radius: 20px;
+    max-height: 700px;
+    object-fit: contain;
+}
+
+.sight-block {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.no-margin {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#rate {
+    width: 40px;
+}
+
+.review-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+}
+
+#map-dialog {
+   width: min(600px, 90vw);
+}
